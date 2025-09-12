@@ -1,10 +1,15 @@
-from . import db
+import enum
 
-class Student(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-    course = db.Column(db.String(50), nullable=False)
+# Enum for student courses
+class Course(enum.Enum):
+    PYTHON = "Python"
+    DATA_SCIENCE = "Data Science"
+    WEB_DEV = "Web Development"
+    AI = "Artificial Intelligence"
 
-    def __repr__(self):
-        return f"<Student {self.name}>"
+# Simple OOP model for Student
+class Student:
+    def __init__(self, name: str, email: str, course: Course):
+        self.name = name
+        self.email = email
+        self.course = course
