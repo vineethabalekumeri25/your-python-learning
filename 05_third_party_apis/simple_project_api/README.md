@@ -1,13 +1,29 @@
-# Simple Project: APIs
+---
 
-This folder contains small projects using third-party APIs with Python's `requests` library.
+## 📁 `04_enums_and_modules/simple_project_enums/README.md`
 
-## Files
-- **weather_app.py** → Fetches and displays live weather for a given city using OpenWeatherMap API.
-- **news_fetcher.py** → Retrieves the latest news headlines using the NewsAPI.
-- **README.md** → Explains how to use the scripts.
+```markdown
+# Status Tracker (Enums & Modules Project)
 
-## Setup
-1. Install dependencies:
-   ```bash
-   pip install requests
+## 📌 Objective
+Demonstrates using `Enum` and custom modules by building a status tracker for tasks.
+
+---
+
+## ⚙️ Setup Instructions
+```bash
+git clone https://github.com/<your-username>/your-python-learning.git
+cd your-python-learning/04_enums_and_modules/simple_project_enums
+python status_tracker.py
+
+Key Features & Flow
+Uses Enum for task statuses (PENDING, IN_PROGRESS, DONE)
+Imports helper functions from a custom module
+Demonstrates clean modular design
+
+Task: Write Docs — Status: PENDING
+Task: Write Docs — Status: IN_PROGRESS
+
+simple_project_enums/
+│── status_tracker.py
+└── README.md
