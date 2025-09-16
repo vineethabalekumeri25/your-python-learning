@@ -16,7 +16,7 @@ your-python-learning/
 │ ├── calculator.py
 │ ├── unit_converter.py
 │ └── README.md
-│
+
 ├── 02_functions/
 │ ├── defining_functions.py
 │ ├── arguments_kwargs.py
@@ -25,7 +25,7 @@ your-python-learning/
 │ ├── contact_book.py
 │ ├── todo_list.py
 │ └── README.md
-│
+
 ├── 03_classes_objects/
 │ ├── class_definition.py
 │ ├── inheritance.py
@@ -33,14 +33,14 @@ your-python-learning/
 │ └── simple_project_oop/
 │ ├── student_tracker.py
 │ └── README.md
-│
+
 ├── 04_enums_and_modules/
 │ ├── using_enums.py
 │ ├── creating_modules.py
 │ └── simple_project_enums/
 │ ├── status_tracker.py
 │ └── README.md
-│
+
 ├── 05_third_party_apis/
 │ ├── requests_examples.py
 │ ├── json_handling.py
@@ -48,7 +48,7 @@ your-python-learning/
 │ ├── weather_app.py
 │ ├── news_fetcher.py
 │ └── README.md
-│
+
 ├── 06_flask_sqlite/
 │ ├── flask_basics.py
 │ ├── sqlite_basics.py
@@ -57,7 +57,7 @@ your-python-learning/
 │ ├── templates/
 │ ├── static/
 │ └── README.md
-│
+
 ├── 07_major_project/
 │ └── management_system/
 │ ├── app/
@@ -66,7 +66,7 @@ your-python-learning/
 │ ├── database.db
 │ ├── main.py
 │ └── README.md
-│
+
 └── README.md
 
 
