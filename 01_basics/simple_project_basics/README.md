@@ -38,6 +38,3 @@ simple_project_basics/
 │── calculator.py
 │── unit_converter.py
 └── README.md
-
-
-<video controls src="../Introduction to Python Basics_ Variables, Data Types, and Control Structures.mp4" title="Title"></video>
