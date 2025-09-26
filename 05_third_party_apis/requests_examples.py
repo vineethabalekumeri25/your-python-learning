@@ -20,6 +20,7 @@ def search_repositories(query="python"):
     response = requests.get(url, params=params)
     if response.ok:
         data = response.json()
+        print(response.json())
         print(f"Top repository for '{query}':", data['items'][0]['full_name'])
     else:
         print("Error:", response.status_code)
