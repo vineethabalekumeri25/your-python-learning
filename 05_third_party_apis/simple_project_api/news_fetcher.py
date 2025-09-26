@@ -5,7 +5,7 @@ Replace 'YOUR_API_KEY' with a real key from https://newsapi.org/
 
 import requests
 
-API_KEY = "YOUR_API_KEY"
+API_KEY = "f8702c9972194811aa8b1e614f201716"
 BASE_URL = "https://newsapi.org/v2/top-headlines"
 
 def fetch_news(country="us"):
