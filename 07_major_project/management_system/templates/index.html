@@ -1,18 +1,41 @@
-{% extends "base.html" %}
-{% block content %}
-<h1>Student Records</h1>
-<table>
-    <tr>
-        <th>ID</th><th>Name</th><th>Email</th><th>Course</th><th>Action</th>
-    </tr>
-    {% for student in students %}
-    <tr>
-        <td>{{ student.id }}</td>
-        <td>{{ student.name }}</td>
-        <td>{{ student.email }}</td>
-        <td>{{ student.course }}</td>
-        <td><a href="/delete/{{ student.id }}">Delete</a></td>
-    </tr>
-    {% endfor %}
-</table>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Student List</h1>
+
+    <!-- Flash messages -->
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+          {% for message in messages %}
+            <li style="color: green;">{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Course</th>
+        </tr>
+        {% for student in students %}
+        <tr>
+            <td>{{ student['id'] }}</td>
+            <td>{{ student['name'] }}</td>
+            <td>{{ student['email'] }}</td>
+            <td>{{ student['course'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+    <a href="{{ url_for('add_student') }}">Add New Student</a>
+</body>
+</html>
