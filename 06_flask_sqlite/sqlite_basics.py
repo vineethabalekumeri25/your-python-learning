@@ -65,10 +65,10 @@ if __name__ == "__main__":
     print("Users:", fetch_users())
     print("Before Update/Delete Users:", fetch_users())
 
-# Update user (e.g., change Bob’s info)
+    # Update user (e.g., change Bob’s info)
     update_user(2, "Bobby", 35)
 
-        # Delete user (e.g., remove Charlie)
+    # Delete user (e.g., remove Charlie)
     delete_user(3)
 
     print("After Update/Delete:", fetch_users())
