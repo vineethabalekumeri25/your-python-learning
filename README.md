@@ -22,12 +22,12 @@ This repository is divided into 7 progressive modules. Each module covers a key 
 
 ## 🛠️ Tools & Technologies Used
 
-- **Core Language:** :contentReference[oaicite:3]{index=3}
-- **Web Framework:** :contentReference[oaicite:4]{index=4}
-- **Database:** :contentReference[oaicite:5]{index=5} (via :contentReference[oaicite:6]{index=6} ORM in advanced stages)
-- **Libraries:** :contentReference[oaicite:7]{index=7} (for API calls), :contentReference[oaicite:8]{index=8} (for environment variables)
-- **Development Environment:** :contentReference[oaicite:9]{index=9}
-- **Version Control:** :contentReference[oaicite:10]{index=10} and :contentReference[oaicite:11]{index=11}
+- **Core Language:**
+- **Web Framework:**
+- **Database:**
+- **Libraries:**
+- **Development Environment:**
+- **Version Control:**
 
 ---
 
@@ -101,8 +101,8 @@ This repository is divided into 7 progressive modules. Each module covers a key 
 ## 🚀 Future Plans
 
 - Add **user authentication** (login/register) to the major project
-- Integrate **REST APIs** and deploy the web app on :contentReference[oaicite:12]{index=12} or :contentReference[oaicite:13]{index=13}
-- Explore **:contentReference[oaicite:14]{index=14}** for larger-scale applications
+- Integrate **REST APIs** and deploy the web app
+- Explore for larger-scale applications
 - Build a **portfolio site** to showcase my projects
 
 ---
